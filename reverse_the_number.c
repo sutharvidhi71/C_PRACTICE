@@ -15,12 +15,12 @@ int main(){
      }
 
      int sigh=(n<0)?-1:1;//to store sign of number
-     long long temp=(n<0)?-(long long )n:(long long )n;
+     
 
-     while(temp>0){
-        int digit=temp%10;//to extract last digit
+     while(n>0){
+        int digit=n%10;//to extract last digit
         reverse=reverse*10+digit;// by multiplying reverse to 10 it push the digit ot left and make space for coming digit
-        temp/=10;//removes last degit
+        n/=10;//removes last degit
 
      }
      reverse*=sigh;

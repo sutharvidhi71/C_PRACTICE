@@ -1,10 +1,13 @@
 #include<stdio.h>
-int fact(int n)
-{
-   
-    if (n == 0)
+
+int recursion(int n){
+    if(n<=0)
         return 1;
     else
-     printf("hello");
-        return n * fact(n - 1);
+        return n * (recursion(n-1)); 
+}
+int main(){
+    int n=recursion(5);
+    printf("%d",n);
+    return 0;
 }

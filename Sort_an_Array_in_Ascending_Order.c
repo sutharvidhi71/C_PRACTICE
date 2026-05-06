@@ -1,3 +1,5 @@
+//bubble shoot algorithm
+
 #include<stdio.h>
 int main(){
     int arr[5]={10,5,11,2,17};
