@@ -1,5 +1,4 @@
 #include <stdio.h>
-// #include "C:user/Sutha/OneDrive/Desktop/git demo/c_problems/preprocesor_macros_drives/my_header.c"
 #define squer(x) x*x
 
 int main(){

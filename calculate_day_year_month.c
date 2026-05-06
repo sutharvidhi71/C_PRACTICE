@@ -8,7 +8,7 @@ int main()
  
  int weeks=(days%360)/7;
  
- int rem_days=((days%360)%7)%7;
+ int rem_days=((days%360)%7);
  
  printf("years=%d\n",years);
  printf("weeks=%d\n",weeks);

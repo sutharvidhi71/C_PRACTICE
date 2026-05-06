@@ -1,4 +1,4 @@
-
+//find perfact number
 
 #include<stdio.h>
 int main(){

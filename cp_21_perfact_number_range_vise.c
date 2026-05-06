@@ -1,3 +1,5 @@
+//perfact number range wise
+
 #include<stdio.h>
 int main(){
     unsigned long long  rng1,rng2;

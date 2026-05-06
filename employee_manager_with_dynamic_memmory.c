@@ -16,7 +16,7 @@ int main(){
 
         char *id=(char*)malloc(id_char*sizeof(char));
         printf("enter id of employee %d: \n",i+1);
-        scanf("%s",id);
+        scanf("%s",&id);
         printf("id of employee %d is: %s\n",i+1,id);
         free(id);
     }
